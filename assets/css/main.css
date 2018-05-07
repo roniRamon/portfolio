@@ -2479,7 +2479,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: rgb(17, 0, 24);
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.jpg"), url("../../images/bg.jpg");
 		/* background-position: top left,							top left; */
@@ -2513,6 +2513,7 @@
 
 		#header strong, #header b {
 			color: #ffffff;
+			font-size: 25px;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2520,7 +2521,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgb(255, 255, 255);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2539,11 +2540,11 @@
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.8);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.8);
 		font-size: 1.1em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2958,7 +2959,7 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -2979,7 +2980,7 @@
 				}
 
 				#footer {
-						background-image: url(../../images/Slide1.png), url(../../images/jordan2.jpg);
+						background-image: url(../../images/landscape.png);
 						background-size: cover;
 				}
 
@@ -3148,7 +3149,7 @@
 
 	.get-in-touch {
 		display: flex;
-		/* flex-direction: column; */
+		 /* flex-direction: column;  */
 	}
 
 	ul.get-in-touch > li {
@@ -3160,9 +3161,9 @@
 	}
 
 	#header {
-		background-image: url(../../images/Slide1.png), url(../../images/jordan2-B.jpeg);
+		background-image: url(../../images/landscape.png);
     background-size: cover;
-		background-repeat: no-repeat repeat;
+		background-repeat: no-repeat;
 	}
 
 	#skills-icons {
