@@ -3188,3 +3188,9 @@
 	#ex1 {
 		display: flex;
 	}
+
+	.article1, .article2, .article3, .article4 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
